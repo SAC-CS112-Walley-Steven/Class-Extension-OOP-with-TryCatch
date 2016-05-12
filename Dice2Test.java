@@ -6,16 +6,10 @@ public class Dice2Test {
 		
 		Scanner input = new Scanner (System.in);
 		
-		ThreeDice trippleDice = new ThreeDice();
-			
-		System.out.print("Enter the number of dices to play with: ");
-		int diceNum = Dice2.Throw(input.nextInt());
+		TrippleDice Dice = new TrippleDice();
 		
-		System.out.println("Dice number is "+ diceNum);
+		System.out.print(Dice.Throw());
 		
-		System.out.println(trippleDice.Throw());
-		
-		System.out.println(trippleDice);
 	}
 
 }
