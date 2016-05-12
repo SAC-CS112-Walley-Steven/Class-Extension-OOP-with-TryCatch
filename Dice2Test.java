@@ -6,10 +6,10 @@ public class Dice2Test {
 		
 		Scanner input = new Scanner (System.in);
 		
-		TrippleDice Dice = new TrippleDice();
+		TrippleDice dice = new TrippleDice();
 		Dice2 superDice = new Dice2();
 		
-		System.out.println(Dice.Throw());
+		System.out.println(dice.Throw());
 		System.out.print(superDice.Throw());
 		
 	}
