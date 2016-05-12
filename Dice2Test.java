@@ -8,7 +8,8 @@ public class Dice2Test {
 		
 		TrippleDice Dice = new TrippleDice();
 		
-		System.out.print(Dice.Throw());
+		int num = Dice.Throw();
+		System.out.print(num);
 		
 	}
 
