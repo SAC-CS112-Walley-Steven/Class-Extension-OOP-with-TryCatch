@@ -1,6 +1,6 @@
 public class Dice2 {
 	
-	public static int Throw()
+	public int Throw()
 	{
 		int randNum = 1 + (int)(Math.random()*6);
 		return randNum;
